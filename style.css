@@ -1,0 +1,54 @@
+body{
+  margin:0;
+  background-color: navajowhite;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.header{
+  text-align: center;
+  font-size: 37px;
+  background-color: bisque;
+}
+
+.title-row{
+  font-size: 19px;
+  text-align: center;
+}
+
+.instructions-row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:40px;
+}
+
+.instructions-number{
+  padding-right:30px;
+  padding-left: 10px;
+}
+
+.door-row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 30px;
+  margin-top: 20px;
+}
+
+.door-frame{
+  cursor: pointer;
+}
+
+.button-holder{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.start-row{
+  cursor:pointer;
+  background-color: brown;
+  color: aliceblue;
+  padding:5px;
+}
